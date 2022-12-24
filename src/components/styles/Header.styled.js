@@ -19,14 +19,13 @@ color: var(--primaryBlue);
 }
 
 .hero-text_wrapper{
-    
     font-size: 4.5rem;
     margin-left: 4rem;
     display: flex;
     flex-wrap: wrap;
     width: 60%;
     padding-top: 1.5rem;
-    
+    overflow: hidden;
 
     .span-parent{
         overflow: hidden;
@@ -36,7 +35,7 @@ color: var(--primaryBlue);
     .span-child{ 
         margin-right: 1rem;
     }
-
+    
 }
 
 .down-svg{

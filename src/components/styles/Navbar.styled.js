@@ -60,6 +60,24 @@ export const StyledNavbar = styled.nav`
                 padding:.9rem 1.3rem;
                 font-size: 1.1rem;                
                 color: var(--geryBackground);
+                position: relative;
+            }
+            .resume::after{
+                position: absolute;
+                content: "";
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.2);
+                transform: scaleX(0);
+                transform-origin: right;
+                transition: transform 0.2s ease-out 0s;
+
+            }
+            .resume:hover::after{
+                transform: scaleX(1);
+                transform-origin: left;
             }
         }
         

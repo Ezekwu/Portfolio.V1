@@ -11,6 +11,7 @@ const Header = () => {
 
     const {transitionX, transitionY } = variants;
 
+    
     return (
         <StyledHeader >
             <Navbar />
@@ -43,6 +44,7 @@ const Header = () => {
                         ))
                     }
                 </motion.div>
+                
             </div>
 
             <div className="down-svg container wrapper">

@@ -6,27 +6,36 @@ import { motion } from "framer-motion"
 import { variants } from "../animations/variants"
 import DownSvg from '../../assets/svg/12-arrow-down-outline(1).gif'
 const Header = () => {
-    const heroTitle = "Hi, i'm Ezekwu Jeremiah, a front-end engineer based in Enugu Nigeria."
+    const heroTitle = "Hello, i'm Ezekwu Jeremiah, a front-end engineer based in Enugu Nigeria."
     const titleArr = heroTitle.split(' ')
 
-    const {transitionX, transitionY } = variants;
+    const { transitionYFunc, fadeInFunc } = variants;
 
     
     return (
         <StyledHeader >
             <Navbar />
-            <div className="svg1">
+            <motion.div 
+            className="svg1"
+            variants={fadeInFunc(0).child}
+            animate="animate"
+            initial="initial"
+            >
                 <img src={CustomSvg1} alt="" />
-            </div>
+            </motion.div>
 
-            <div className="svg2">
+            <motion.div 
+            className="svg2"
+            variants={fadeInFunc(0).child}
+            animate="animate"
+            initial="initial">
                 <img src={CustomSvg2} alt="" />
-            </div>
+            </motion.div>
 
             <div className="container wrapper">
                 <motion.div 
                 className="hero-text_wrapper"
-                variants={transitionY.parent}
+                variants={transitionYFunc(1.2).parent}
                 animate="animate"
                 initial="initial">
                     {
@@ -37,7 +46,7 @@ const Header = () => {
                             >
                                 <motion.span 
                                 className="span-child"
-                                variants={transitionY.child}>
+                                variants={transitionYFunc().child}>
                                     {word}
                                 </motion.span>
                             </span>
@@ -47,12 +56,16 @@ const Header = () => {
                 
             </div>
 
-            <div className="down-svg container wrapper">
+            <motion.div 
+            className="down-svg container wrapper"
+            variants={fadeInFunc(1.3)}
+            animate="animate"
+            initial="initial">
                 <div className="scroll-container">
                     <img src={DownSvg} alt="" />
                     <p>Scroll down</p>
                 </div>
-            </div>
+            </motion.div>
 
         </StyledHeader>
     )

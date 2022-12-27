@@ -1,8 +1,15 @@
 import { StyledNavbar } from "../styles/Navbar.styled"
+import { motion } from "framer-motion"
+import { variants } from "../animations/variants"
 const Navbar = () => {
+    const {fadeDownFunc} = variants
     return (
         <StyledNavbar>
-            <div className="container wrapper">
+            <motion.div 
+            className="container wrapper"
+            variants={fadeDownFunc(1)}
+                animate="animate"
+                initial="initial">
                 <div className="logo">
                     Ezekwu.
                 </div>
@@ -18,7 +25,7 @@ const Navbar = () => {
                     <a href="" className="resume">Resume</a>
                 </div>
 
-            </div>
+            </motion.div>
         </StyledNavbar>
     )
 }

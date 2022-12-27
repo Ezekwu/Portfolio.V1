@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 export const StyledHeader = styled.header`
 background-color: #1d212b;
-height: 100vh;
 position: relative;
+padding-bottom: 3rem;
 color: var(--primaryBlue);
 .svg1{
     position: absolute;
@@ -19,21 +19,25 @@ color: var(--primaryBlue);
 }
 
 .hero-text_wrapper{
-    font-size: 4.5rem;
+    font-size: 5rem;
+    
     margin-left: 4rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
     display: flex;
     flex-wrap: wrap;
     width: 60%;
-    padding-top: 1.5rem;
     overflow: hidden;
 
     .span-parent{
         overflow: hidden;
         display: flex;
+        
     }
     
     .span-child{ 
         margin-right: 1rem;
+        font-family: 'Noto Nastaliq Urdu', serif;
     }
     
 }

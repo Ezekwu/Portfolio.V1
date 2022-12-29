@@ -4,7 +4,7 @@ export const StyledAmoutme = styled.section`
 background-color: var(--primaryBlue);
 color: var(--geryBackground);
 
-font-size: 4rem;
+
 padding: 4rem 0;
 &>div{
     display: flex;

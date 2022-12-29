@@ -17,7 +17,7 @@ const Header = () => {
             <Navbar />
             <motion.div 
             className="svg1"
-            variants={fadeInFunc(0).child}
+            variants={fadeInFunc(0)}
             animate="animate"
             initial="initial"
             >
@@ -26,7 +26,7 @@ const Header = () => {
 
             <motion.div 
             className="svg2"
-            variants={fadeInFunc(0).child}
+            variants={fadeInFunc(.5)}
             animate="animate"
             initial="initial">
                 <img src={CustomSvg2} alt="" />
@@ -58,7 +58,7 @@ const Header = () => {
 
             <motion.div 
             className="down-svg container wrapper"
-            variants={fadeInFunc(1.3)}
+            variants={fadeInFunc(0).child}
             animate="animate"
             initial="initial">
                 <div className="scroll-container">

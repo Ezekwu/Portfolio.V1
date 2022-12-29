@@ -83,6 +83,23 @@ export const variants = {
     },
     fadeInFunc :(delay) => {
         return {
+            initial : { 
+                    opacity: 0,
+                },
+                animate: { 
+                    opacity:1,
+                    transition: {
+                        duration:0.5,
+                        ease: 'easeInOut',
+                        delay: delay
+                    }
+                
+                }
+            
+        }
+    },
+    fadeInStaggeredFunc :(delay) => {
+        return {
             parent: {
                 animate: {
                     transition: {

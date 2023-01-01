@@ -5,7 +5,7 @@ background-color: var(--primaryBlue);
 color: var(--geryBackground);
 
 
-padding: 4rem 0;
+padding: 4.5rem 0;
 &>div{
     display: flex;
     gap: 10rem;
@@ -40,6 +40,7 @@ padding: 4rem 0;
             display: flex;
             align-items: flex-start;
             gap: 1rem;
+        
             img{
                 width: 22px;
             }

@@ -34,7 +34,7 @@ export const variants = {
                 })
             },
             child : {
-                initial: { x: -100 },
+                initial: { x: -300 },
                 animate: {
                     x: 0,
                     transition: {
@@ -123,4 +123,37 @@ export const variants = {
             }
         }
     },
+    widthAnimate: (delay) => {
+        return {
+            initial : { 
+                width: 0,
+            },
+            animate: { 
+                width: 180,
+                transition: {
+                    duration:0.7,
+                    ease: 'easeInOut',
+                    delay: delay
+                }
+            
+            }
+        }
+    },
+
+    scaleAnimate: (delay) => {
+        return {
+            initial : { 
+                scale: 0,
+            },
+            animate: { 
+                scale: 1,
+                transition: {
+                    duration:1.2,
+                    ease: 'easeInOut',
+                    delay: delay
+                }
+            
+            }
+        }
+    }
 }

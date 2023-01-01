@@ -28,6 +28,7 @@ const Skills = () => {
                             ))
                         }
                     </motion.div>
+                    
                 
 
                 </div>

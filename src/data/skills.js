@@ -9,9 +9,10 @@ import StyledComponents from '../assets/svg/styled-components-svgrepo-com.svg'
 import Firebase from '../assets/svg/firebase-svgrepo-com.svg'
 import Git from '../assets/svg/git-svgrepo-com.svg'
 import Github from '../assets/svg/github-svgrepo-com.svg'
+import FramerMotion from '../assets/svg/framer-motion-seeklogo.com.svg'
 export const skills = [
     {
-        name:'Html5',
+        name:'Html',
         img: Html
     },
 
@@ -63,5 +64,10 @@ export const skills = [
     {
         name:'Github',
         img: Github
+    }, 
+
+    {
+        name:'Framer-motion',
+        img: FramerMotion
     },
-]
+] 

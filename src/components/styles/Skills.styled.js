@@ -31,7 +31,7 @@ padding: 4.5rem 0;
         display: grid;
         grid-template-columns: repeat(7, 1fr);
         column-gap: 1.5rem;
-        row-gap: 2.3rem;
+        row-gap: 2.5rem;
         
         
         .card{
@@ -55,7 +55,7 @@ padding: 4.5rem 0;
             p{
                 background-color:var(--primaryBlue) ;
                 color: var(--geryBackground);
-                transition: background-color 0.2s ease-out 0s;
+                transition: background-color 0.2s ease-in-out 0s;
             }
         }
     }

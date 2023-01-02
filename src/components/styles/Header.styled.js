@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 export const StyledHeader = styled.header`
-background-color: #1d212b;
+background-color: var(--geryBackground);
 position: relative;
 padding-bottom: 3rem;
 color: var(--primaryBlue);

@@ -3,6 +3,7 @@ import Header from "../components/layouts/Header"
 import Skills from "../components/layouts/Skills"
 import Projects from "../components/layouts/Projects"
 import Contact from "../components/layouts/Contact"
+import Footer from "../components/layouts/Footer"
 const Homepage = () => {
     return (
         <div>
@@ -11,6 +12,7 @@ const Homepage = () => {
             <Skills />
             <Projects />
             <Contact />
+            <Footer />
         </div>
     )
 }

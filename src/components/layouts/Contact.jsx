@@ -7,7 +7,7 @@ const Contact = () => {
     const titleArr = contactTitle.split(' ')
 
     return (
-        <StyledContact>
+        <StyledContact id="contact">
             <div className="wrapper container">
                 <motion.div 
                     className="contact-text_wrapper"
@@ -36,7 +36,7 @@ const Contact = () => {
                     initial="initial">
                     Are you looking for a front-end engineer for freelance, part-time or full-time jobs?    <br />  Reach out to me.
                 </motion.p>
-                <motion.a href="" 
+                <motion.a href="mailto:ezekwujerry@gmail.com" 
                 className="email"
                 variants={fadeInFunc(.1)}
                     whileInView="animate"
@@ -53,15 +53,17 @@ const Contact = () => {
                 variants={fadeInFunc(.3)}
                     whileInView="animate"
                     initial="initial">
-                    <a href="">Github</a>
+                    <a href="https://github.com/Ezekwu"target='_blank' rel="noreferrer">Github</a>
                     <div className="circle"></div>
-                    <a href="">linkedin</a>
+                    <a href="https://www.linkedin.com/in/jerry-ezekwu-63a0b822b/"target='_blank' rel="noreferrer">linkedin</a>
                     <div className="circle"></div>
-                    <a href="">Twitter</a>
+                    <a href="https://twitter.com/i_ezekwu"target='_blank' rel="noreferrer">Twitter</a>
+                    <div className="circle"></div>
+                    <a href="mailto:ezekwujerry@gmail.com">email</a>
                 </motion.div>
             </div>
         </StyledContact>
-    )
+    )   
 }
 
 export default Contact

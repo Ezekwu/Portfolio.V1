@@ -38,4 +38,14 @@ export const StyledFooter = styled.footer`
             }
         }
     }
+    @media(max-width:900px) {
+        padding: 3rem 0rem;
+    }
+    @media(max-width:650px) {
+        padding: 2rem 0rem;
+        &>div{
+            flex-direction: column;
+            gap: 3rem;
+        }
+    }
 `

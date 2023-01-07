@@ -9,7 +9,7 @@ export const projects = [
         technologies: ["React", "Styled-Components", "Context-api"],
         githubLink: "https://github.com/Ezekwu/cryptocurrency-tracker.git",
         liveSite:"https://coin-trackk.netlify.app/",
-        viewMoreLink:"",
+        viewMoreLink:"/project/Cointrackk",
         thumbnail: CointrakImg
     },
 
@@ -19,7 +19,7 @@ export const projects = [
         technologies: ["React", "Styled-Components", "Framer-Motion"],
         githubLink: "https://github.com/Ezekwu/courage-portfolio.git",
         liveSite:"https://courageegbude.netlify.app/",
-        viewMoreLink:"",
+        viewMoreLink:"/project/Courageegude",
         thumbnail: CourageImg
     },
     {
@@ -28,7 +28,7 @@ export const projects = [
         technologies: ["React", "Styled-Components", "Firebase"],
         githubLink: "https://github.com/Ezekwu/HomeHub.git",
         liveSite:"https://homehubb.netlify.app/",
-        viewMoreLink:"",
+        viewMoreLink:"/project/HomeHub",
         thumbnail: HomehubImg
     },
 ]

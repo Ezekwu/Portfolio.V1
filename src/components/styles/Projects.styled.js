@@ -37,6 +37,25 @@ export const StyledProjects = styled.section`
         }
     }
     
+    @media(max-width:800px){
+        .title{
+            margin: 0 auto 2rem;
+        }
+    }
+
+    @media(max-width:650px){
+        .title{
+            margin: 0 auto ;
+        }
+    }
+    @media(max-width:600px){
+        .title{
+            margin: 0 auto ;
+            .about-text_wrapper{
+                font-size: 2rem;
+            }
+        }
+    }
     
 
     

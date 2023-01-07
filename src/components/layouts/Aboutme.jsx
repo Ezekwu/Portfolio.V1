@@ -9,7 +9,7 @@ const Aboutme = () => {
     const {transitionX, transitionYFunc, fadeInStaggeredFunc  }  = variants
     return (
         
-        <StyledAmoutme>
+        <StyledAmoutme id="about">
             
             <div className="container wrapper">
                 <div className="col-1">

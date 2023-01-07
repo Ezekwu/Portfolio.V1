@@ -8,7 +8,7 @@ const Skills = () => {
     const titleArr = aboutTitle.split(' ')
     const { transitionX, fadeInFunc }  = variants
     return (
-        <StyledSkills>
+        <StyledSkills id="skills">
             <div className="container wrapper">
                 <div className="col-1">
                     <motion.div 

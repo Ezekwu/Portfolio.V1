@@ -1,6 +1,7 @@
 import { StyledProject } from "../styles/Project.styled"
 import { motion } from "framer-motion"
 import { variants } from "../animations/variants"
+import { Link } from "react-router-dom"
 const Project = ({ project }) => {
     const {  transitionX, fadeInFunc, scaleAnimate } = variants
     const aboutTitle = project.name
@@ -56,13 +57,17 @@ const Project = ({ project }) => {
                             <a href={project.liveSite} target='_blank' rel="noreferrer">Live-site</a>
                         </motion.div>
 
-                        <motion.a href="" 
-                        className="View-more"
+                        
+                        <motion.div
                         variants={fadeInFunc(.4)}
                         whileInView="animate"
                         initial="initial">
-                            View More
-                        </motion.a>
+                            <Link 
+                            to={project.viewMoreLink}
+                            className="View-more"> 
+                                View More
+                            </Link>
+                        </motion.div>
                     </div>
                     <motion.div 
                     className="thumbnail"

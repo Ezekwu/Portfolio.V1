@@ -1,6 +1,7 @@
 import { StyledNavbar } from "../styles/Navbar.styled"
 import { motion } from "framer-motion"
 import { variants } from "../animations/variants"
+import { Link } from "react-router-dom"
 const Navbar = () => {
     const {fadeDownFunc} = variants
     return (
@@ -10,16 +11,19 @@ const Navbar = () => {
             variants={fadeDownFunc(1)}
                 animate="animate"
                 initial="initial">
-                <div className="logo">
+                <Link 
+                className="logo"
+                to='/'
+                >
                     Ezekwu.
-                </div>
+                </Link>
 
                 <div className="links-container">
                     <ul className="links">
-                        <li><a href="">About</a></li>
-                        <li><a href="">Skills</a></li>
-                        <li><a href="">Projects</a></li>
-                        <li><a href="">Contact</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                     
                     <a href="" className="resume">Resume</a>

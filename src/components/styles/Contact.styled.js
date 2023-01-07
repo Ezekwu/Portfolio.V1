@@ -90,4 +90,40 @@ text-align: center;
         background-color: var(--geryBackground);
     }
 }
+@media(max-width:1000px) {
+    padding: 3rem 0;
+    .contact-text_wrapper{
+        font-size: 2.5rem;
+        margin-bottom: 1.5rem;
+    }
+}
+@media(max-width:650px) {
+    .contact-text_wrapper{
+        font-size: 2.2rem;
+        gap:.3rem;
+    }
+    .contact-desc{
+        font-size: 1rem;
+    }
+    .links-desc{
+        font-size: 1rem;
+    }
+    .links a{
+        font-size: 1rem;
+    }
+}
+@media(max-width:600px) {
+    .contact-text_wrapper{
+        font-size: 2rem;
+        flex-wrap: wrap;
+    }
+    .email{
+        padding: .8rem .9rem ;
+    }
+}
+@media(max-width:370px) {
+    .links{
+        flex-wrap: wrap;
+    }
+}
 `

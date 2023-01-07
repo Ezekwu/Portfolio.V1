@@ -10,7 +10,7 @@ const Projects = () => {
 
     const {transitionYFunc, widthAnimate} = variants
     return (
-        <StyledProjects>
+        <StyledProjects id="projects">
             <div className="container wrapper">
                 <div className="title">
                     <motion.div 

@@ -6,7 +6,7 @@ import Contact from "../components/layouts/Contact"
 import Footer from "../components/layouts/Footer"
 const Homepage = () => {
     return (
-        <div>
+        <div >
             <Header />
             <Aboutme />
             <Skills />

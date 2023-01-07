@@ -101,4 +101,60 @@ export const StyledProject = styled.section`
         width: 100%;
         background-color: #1d212b3d;
     }
+
+    @media(max-width:1000px){
+        .project{
+            gap: 2rem;
+
+            .thumbnail{
+                padding: 3rem;
+            }
+        }
+    }
+
+    @media(max-width:950px){
+        .project{
+            gap: 3rem;
+            flex-direction: column-reverse;
+            .thumbnail{
+                width: 100%;
+            }
+            .details{
+                width: 100%;
+            }
+        }
+    }
+    @media(max-width:800px){
+        .project{
+            .thumbnail{
+                padding: 2.5rem;
+            }
+            .details{
+                .tech-stack{
+                    margin-bottom: 2rem;
+                }
+            }
+        }
+    }
+    @media(max-width:600px){
+        .project{
+            padding: 3rem 0;
+            .thumbnail{
+                padding: 5%;
+            }
+            .details{
+                font-size: 1rem;
+                .project-name_wrapper{
+                    font-size: 2rem;
+                    margin-bottom: .6rem;
+                }
+                .tech-stack{
+                    margin-bottom: 1.5rem;
+                }
+                .view-more{
+                    padding: .6em 1rem;
+                }
+            }
+        }
+    }
 `

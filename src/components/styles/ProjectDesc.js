@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const StyledProjectDesc = styled.div`
 background-color: var(--geryBackground);
 color: var(--primaryBlue);
-
+padding-top: 4.5rem;
 
 h2, h3{
     font-weight: 200;

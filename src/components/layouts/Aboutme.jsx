@@ -41,7 +41,7 @@ const Aboutme = () => {
                     className="point"
                     variants={fadeInStaggeredFunc().child}>
                         <img src={CodeSvg} alt="" />
-                        <p>I am a meticulous front-end developer with 2 years of experience building responsive and interactive websites</p>
+                        <p>I am a meticulous front-end developer with 2 years of experience building responsive and interactive websites using React.</p>
                     </motion.div>
                     <motion.div 
                     className="point"

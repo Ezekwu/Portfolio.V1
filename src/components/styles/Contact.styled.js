@@ -35,7 +35,7 @@ text-align: center;
     border: 1px solid var(--geryBackground);
     padding: 1rem 1.1rem;
     position: relative;
-    z-index: 34;
+    
     
 }
 .email:hover{

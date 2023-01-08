@@ -2,8 +2,10 @@ import styled from 'styled-components';
 export const StyledHeader = styled.header`
 background-color: var(--geryBackground);
 position: relative;
+padding-top: 9rem;
 padding-bottom: 3rem;
 color: var(--primaryBlue);
+overflow-x: hidden;
 .svg1{
     position: absolute;
     top: 0;
@@ -17,6 +19,7 @@ color: var(--primaryBlue);
     bottom: 0;
     left: 0;
     z-index: 0;
+    
 }
 
 .hero-text_wrapper{
@@ -90,6 +93,7 @@ color: var(--primaryBlue);
 }
 
 @media(max-width:700px){
+    padding-top: 6rem;
     .hero-text_wrapper{
         font-size: 3rem;
         .span-child{

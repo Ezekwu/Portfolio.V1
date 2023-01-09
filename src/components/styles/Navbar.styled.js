@@ -30,7 +30,7 @@ export const StyledNavbar = styled.nav`
             display: flex;
             align-items: center;
             gap:3rem;
-            background-color: var(--geryBackground);
+            
             ul{
                 list-style-type: none;
                 display: flex;
@@ -101,6 +101,7 @@ export const StyledNavbar = styled.nav`
         border-bottom: 1px solid #1d212b42;
         padding-top: 1.1rem;
         padding-bottom:1.1rem;
+        
         .container{
             .logo{
                 color: var(--geryBackground);
@@ -109,7 +110,6 @@ export const StyledNavbar = styled.nav`
                 color: var(--geryBackground);
             }
             .links-container{
-                background-color: var(--primaryBlue);
             ul{
                 li a::after{
                     background: var(--geryBackground);
@@ -138,6 +138,7 @@ export const StyledNavbar = styled.nav`
         border-bottom: 1px solid #52f2f21c;
         padding-top: 1.1rem;
         padding-bottom:1.1rem;
+        transition: all .3s ease-in-out;
     }
     @media(max-width:850px) {
         .main-nav{
@@ -146,6 +147,7 @@ export const StyledNavbar = styled.nav`
                     justify-content: center;
                     position: absolute;
                     top: 0;
+                    background-color: var(--geryBackground);
                     left: 0;
                     width: 100%;
                     height: 100vh;
@@ -166,6 +168,13 @@ export const StyledNavbar = styled.nav`
 
                 .links-container.show-menu{
                     transform: translateX(0%);
+                }
+            }
+        }
+        .main-nav.active{
+            .container{
+                .links-container{
+                    background-color: var(--primaryBlue);
                 }
             }
         }

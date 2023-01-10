@@ -11,7 +11,10 @@ const Navbar = () => {
 
     const toggleNav = () => {
         setMobileNav(prevState => !prevState)
-        console.log(mobileNav);
+    }
+
+    const closeNav = ()=> {
+        setMobileNav(false)
     }
 
     const showActiveNav = ()=> {
@@ -43,10 +46,10 @@ const Navbar = () => {
 
                 <div className={mobileNav ? "links-container show-menu" : "links-container"}>
                     <ul className="links">
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#skills">Skills</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li onClick={closeNav}><a href="#about">About</a></li>
+                        <li onClick={closeNav}><a href="#skills">Skills</a></li>
+                        <li onClick={closeNav}><a href="#projects">Projects</a></li>
+                        <li onClick={closeNav}><a href="#contact">Contact</a></li>
                         <a href={Resume} download className="resume">Resume</a>
                     </ul>
                 </div>

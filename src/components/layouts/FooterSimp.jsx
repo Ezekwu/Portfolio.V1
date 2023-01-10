@@ -1,7 +1,7 @@
 import { StyledFooter } from "../styles/Footer.styled"
-import { Link } from "react-router-dom"
 
 const FooterSimp = () => {
+    const date = new Date().getFullYear()
     return (
         <StyledFooter>
             <div className="container wrapper ">
@@ -9,7 +9,7 @@ const FooterSimp = () => {
                     <h3>
                         Ezekwu.
                     </h3>
-                    <p className="padding-0">Designed by Ezekwu Jeremiah &copy;</p>
+                    <p className="padding-0">Designed by Ezekwu Jeremiah &copy; {date}</p>
                 </div>
 
                 

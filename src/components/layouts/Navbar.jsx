@@ -3,6 +3,7 @@ import { motion } from "framer-motion"
 import { variants } from "../animations/variants"
 import { Link } from "react-router-dom"
 import { useState } from "react"
+import Resume from '../../assets/document/Ezekwu jeremiah resume-1.pdf'
 const Navbar = () => {
     const {fadeDownFunc} = variants
     const [activeNavbar, setActiveNavbar] = useState(false)
@@ -46,7 +47,7 @@ const Navbar = () => {
                         <li><a href="#skills">Skills</a></li>
                         <li><a href="#projects">Projects</a></li>
                         <li><a href="#contact">Contact</a></li>
-                        <a href="" className="resume">Resume</a>
+                        <a href={Resume} download className="resume">Resume</a>
                     </ul>
                 </div>
                 <div className="toggle-menu" onClick={toggleNav}>

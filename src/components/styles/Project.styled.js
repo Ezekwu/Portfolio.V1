@@ -145,7 +145,7 @@ export const StyledProject = styled.section`
             .details{
                 font-size: 1rem;
                 .project-name_wrapper{
-                    font-size: 2rem;
+                    font-size: 1.8rem;
                     margin-bottom: .6rem;
                 }
                 .tech-stack{

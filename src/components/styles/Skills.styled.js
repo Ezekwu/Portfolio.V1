@@ -131,7 +131,7 @@ padding: 4.5rem 0;
         }
     }
 }
-@media(max-width:350px){
+@media(max-width:375px){
     &>div{
         
         .col-2{

@@ -6,7 +6,7 @@ import { motion } from "framer-motion"
 import { variants } from "../animations/variants"
 import DownSvg from '../../assets/svg/12-arrow-down-outline(1).gif'
 const Header = () => {
-    const heroTitle = "Hello, i'm Ezekwu Jeremiah, a front-end engineer based in Enugu Nigeria."
+    const heroTitle = "Hello, i'm Ezekwu Jeremiah, a Front-end Engineer based in Enugu Nigeria."
     const titleArr = heroTitle.split(' ')
 
     const { transitionYFunc, fadeInFunc } = variants;

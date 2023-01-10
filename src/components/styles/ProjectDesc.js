@@ -110,8 +110,15 @@ ul{
             padding: 5%;
             margin: 0 auto 3rem;
         }
+        h2{
+            font-size: 2rem;
+        }
         h3{
-            font-size: 1.6rem;
+            font-size: 1.4rem;
+        }
+        p{
+            padding-left: 0rem;
+            font-size: .9rem;
         }
     }
 }

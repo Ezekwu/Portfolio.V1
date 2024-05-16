@@ -3,7 +3,7 @@ import { motion } from "framer-motion"
 import { variants } from "../animations/variants"
 import { Link } from "react-router-dom"
 import { useState } from "react"
-import Resume from '../../assets/document/Ezekwu jeremiah resume-1.pdf'
+import Resume from '../../assets/document/Ezekwu jeremiah resume - Google Docs.pdf'
 const Navbar = () => {
     const {fadeDownFunc} = variants
     const [activeNavbar, setActiveNavbar] = useState(false)

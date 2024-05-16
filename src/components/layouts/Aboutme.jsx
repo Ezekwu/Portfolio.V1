@@ -6,11 +6,10 @@ import { variants } from "../animations/variants"
 const Aboutme = () => {
     const aboutTitle = "About me"
     const titleArr = aboutTitle.split(' ')
-    const {transitionX, transitionYFunc, fadeInStaggeredFunc  }  = variants
+    const {transitionX,  fadeInStaggeredFunc  }  = variants
     return (
         
         <StyledAmoutme id="about">
-            
             <div className="container wrapper">
                 <div className="col-1">
                     <motion.div 
@@ -41,7 +40,7 @@ const Aboutme = () => {
                     className="point"
                     variants={fadeInStaggeredFunc().child}>
                         <img src={CodeSvg} alt="" />
-                        <p>I am a meticulous front-end developer with 2 years of experience building responsive and interactive websites using React.</p>
+                        <p>I am a meticulous front-end developer with 3 years of experience building responsive and interactive websites using React.</p>
                     </motion.div>
                     <motion.div 
                     className="point"

@@ -55,7 +55,7 @@ const Contact = () => {
                     initial="initial">
                     <a href="https://github.com/Ezekwu"target='_blank' rel="noreferrer">Github</a>
                     <div className="circle"></div>
-                    <a href="https://www.linkedin.com/in/jerry-ezekwu-63a0b822b/"target='_blank' rel="noreferrer">linkedin</a>
+                    <a href="https://linkedin.com/in/jerry-ezekwu" target='_blank' rel="noreferrer">linkedin</a>
                     <div className="circle"></div>
                     <a href="https://twitter.com/i_ezekwu"target='_blank' rel="noreferrer">Twitter</a>
                     <div className="circle"></div>

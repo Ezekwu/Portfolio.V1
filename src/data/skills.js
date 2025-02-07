@@ -13,71 +13,71 @@ import FramerMotion from '../assets/svg/framer-motion-seeklogo.com.svg';
 import Typescript from '../assets/svg/typescript-svgrepo-com.svg';
 import Nextjs from '../assets/svg/next-js-svgrepo-com.svg';
 export const skills = [
-    {
-        name:'Html',
-        img: Html
-    },
+  {
+    name: 'Html',
+    img: Html,
+  },
 
-    {
-        name:'Css',
-        img: Css
-    },
+  {
+    name: 'Css',
+    img: Css,
+  },
 
-    {
-        name:'Javascript',
-        img: Javascript
-    },
-    {
-        name:'Typescript',
-        img: Typescript
-    },
+  {
+    name: 'Javascript',
+    img: Javascript,
+  },
+  {
+    name: 'Typescript',
+    img: Typescript,
+  },
 
-    {
-        name:'React',
-        img: React
-    },
+  {
+    name: 'React',
+    img: React,
+  },
 
-    {
-        name:'Redux',
-        img: Redux
-    },
-    {
-        name:'Nextjs',
-        img: Nextjs
-    },
+  {
+    name: 'Redux',
+    img: Redux,
+  },
+  {
+    name: 'Nextjs',
+    img: Nextjs,
+  },
 
-    {
-        name:'Scss',
-        img: SCSS
-    },
+  {
+    name: 'Scss',
+    img: SCSS,
+  },
 
-    {
-        name:'Tailwind',
-        img: Tailwind
-    },
+  {
+    name: 'Tailwind',
+    img: Tailwind,
+  },
 
-    {
-        name:'StyledComponents',
-        img: StyledComponents
-    },
+  {
+    name: 'StyledComponents',
+    img: StyledComponents,
+  },
 
-    {
-        name:'Firebase',
-        img: Firebase
-    },
+  {
+    name: 'Firebase',
+    img: Firebase,
+  },
 
-    {
-        name:'Git',
-        img: Git
-    },
+  {
+    name: 'Git',
+    img: Git,
+  },
 
-    {
-        name:'Github',
-        img: Github
-    }, 
+  {
+    name: 'Github',
+    img: Github,
+  },
 
-    {
-        name:'Framer-motion',
-        img: FramerMotion
-    },
-] 
+  {
+    name: 'Framer-motion',
+    img: FramerMotion,
+  },
+];

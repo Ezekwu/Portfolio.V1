@@ -3,7 +3,7 @@
   --brightBlue: #52f2f2;
   --geryBackground: #1d212b;
 }
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -11,37 +11,35 @@
   scroll-behavior: smooth;
 }
 
-img{
+img {
   max-width: 100%;
 }
-body{
+body {
   overflow-x: hidden;
-  
 }
-.container{
+.container {
   padding-left: 3.5rem;
   padding-right: 3.5rem;
 }
 
-.wrapper{
+.wrapper {
   max-width: 1500px;
   margin: 0 auto;
 }
 
-p{
+p {
   line-height: 1.5rem;
 }
 
-@media(max-width:800px) {
-  .container{
+@media (max-width: 800px) {
+  .container {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
   }
 }
 
-
-@media(max-width:480px) {
-  .container{
+@media (max-width: 480px) {
+  .container {
     padding-left: 1.3rem;
     padding-right: 1.3rem;
   }

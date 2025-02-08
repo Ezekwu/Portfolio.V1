@@ -26,7 +26,7 @@ export const StyledProject = styled.section`
         }
       }
       .description{
-        max-width: 60%;
+        max-width: 400px;
         margin-bottom: 1rem;
       }
       .duration {

@@ -2,7 +2,7 @@ import { StyledNavbar } from '../styles/Navbar.styled';
 import { variants } from '../animations/variants';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
-import Resume from '../../assets/document/Ezekwu-Jeremiah-Ifeanyi.-ResumeV5.pdf';
+import Resume from '../../assets/document/Ezekwu Jeremiah Ifeanyi.-ResumeV6.pdf';
 const Navbar = () => {
   const { fadeDownFunc } = variants;
   const [activeNavbar, setActiveNavbar] = useState(false);

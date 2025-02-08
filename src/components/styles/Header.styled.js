@@ -125,7 +125,7 @@ export const StyledHeader = styled.header`
   @media (max-width: 600px) {
     .hero-text_wrapper {
       font-size: 2.5rem;
-      line-height: 50px;
+      line-height: 55px;
       width: 100%;
       .span-child {
         margin-right: 0.7rem;

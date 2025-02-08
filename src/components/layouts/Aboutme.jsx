@@ -15,6 +15,7 @@ const Aboutme = () => {
             className="about-text_wrapper"
             variants={transitionX(0.04).parent}
             whileInView="animate"
+            viewport={{ once: true }}
             initial="initial"
           >
             {titleArr.map((word, index) => (
@@ -34,12 +35,13 @@ const Aboutme = () => {
           className="col-2"
           variants={fadeInStaggeredFunc(1).parent}
           whileInView="animate"
+          viewport={{ once: true }}
           initial="initial"
         >
           <motion.div className="point" variants={fadeInStaggeredFunc().child}>
             <img src={CodeSvg} alt="" />
             <p>
-              I am a meticulous front-end developer with 3 years of experience
+              I am a meticulous front-end developer with 4 years of experience
               building responsive and interactive websites using React.
             </p>
           </motion.div>
@@ -54,7 +56,7 @@ const Aboutme = () => {
             <img src={CodeSvg} alt="" />
             <p>
               I love being part of a team that includes individuals that are
-              passionate about their jobs, and execute their tasks to perfection
+              passionate about their job, and execute their tasks to perfection
             </p>
           </motion.div>
           <motion.div className="point" variants={fadeInStaggeredFunc().child}>

@@ -13,6 +13,7 @@ const Contact = () => {
           className="contact-text_wrapper"
           variants={transitionYFunc(0.3).parent}
           whileInView="animate"
+          viewport={{ once: true }}
           initial="initial"
         >
           {titleArr.map((word, index) => (
@@ -30,6 +31,7 @@ const Contact = () => {
           className="contact-desc"
           variants={fadeInFunc()}
           whileInView="animate"
+          viewport={{ once: true }}
           initial="initial"
         >
           Are you looking for a front-end engineer for freelance, part-time or
@@ -40,6 +42,7 @@ const Contact = () => {
           className="email"
           variants={fadeInFunc(0.1)}
           whileInView="animate"
+          viewport={{ once: true }}
           initial="initial"
         >
           Send an email
@@ -48,6 +51,7 @@ const Contact = () => {
           className="links-desc"
           variants={fadeInFunc(0.2)}
           whileInView="animate"
+          viewport={{ once: true }}
           initial="initial"
         >
           connect with me via these platforms:
@@ -56,6 +60,7 @@ const Contact = () => {
           className="links"
           variants={fadeInFunc(0.3)}
           whileInView="animate"
+          viewport={{ once: true }}
           initial="initial"
         >
           <a href="https://github.com/Ezekwu" target="_blank" rel="noreferrer">

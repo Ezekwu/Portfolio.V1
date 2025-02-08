@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 export const StyledHeader = styled.header`
   background-color: var(--geryBackground);
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
   padding-top: 9rem;
   padding-bottom: 3rem;
@@ -21,14 +23,16 @@ export const StyledHeader = styled.header`
   }
 
   .hero-text_wrapper {
-    font-size: 5rem;
-
+    font-size: 5.3rem;
+    font-weight: 600;
     margin-left: 4rem;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     display: flex;
     flex-wrap: wrap;
-    width: 60%;
+    justify-content: center;
+    width: 65%;
+    margin: 0 auto;
     overflow: hidden;
 
     .span-parent {
@@ -37,8 +41,16 @@ export const StyledHeader = styled.header`
     }
 
     .span-child {
-      margin-right: 1rem;
+      margin-right: 1.4rem;
       font-family: 'Noto Nastaliq Urdu', serif;
+    
+      
+      &:hover{
+        cursor: pointer;
+        color: #b6ffff8d;
+        transition: all;
+        transition-duration: .2s;
+      }
     }
   }
 
@@ -110,9 +122,10 @@ export const StyledHeader = styled.header`
       }
     }
   }
-  @media (max-width: 520px) {
+  @media (max-width: 600px) {
     .hero-text_wrapper {
       font-size: 2.5rem;
+      line-height: 50px;
       width: 100%;
       .span-child {
         margin-right: 0.7rem;
@@ -131,7 +144,7 @@ export const StyledHeader = styled.header`
   }
   @media (max-width: 360px) {
     .hero-text_wrapper {
-      font-size: 2.2rem;
+      font-size: 2rem;
       width: 100%;
       .span-child {
         margin-right: 0.5rem;

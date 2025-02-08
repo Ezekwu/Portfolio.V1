@@ -5,7 +5,7 @@ export const StyledProject = styled.section`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 3rem;
+    gap: 0rem;
     color: var(--geryBackground);
     padding: 4rem 0;
 
@@ -25,13 +25,19 @@ export const StyledProject = styled.section`
           }
         }
       }
+      .description{
+        max-width: 60%;
+        margin-bottom: 1rem;
+      }
       .duration {
         margin-bottom: 0.5rem;
+        color: #606676;
       }
+
       .tech-stack {
         display: flex;
         gap: 0.4rem;
-        margin-bottom: 4em;
+        margin-bottom: 2em;
       }
 
       .links {
@@ -44,7 +50,7 @@ export const StyledProject = styled.section`
           transition: all 0.2s ease-in;
         }
         a:hover {
-          color: #1d212b6b;
+          color: #606676;
         }
       }
       .View-more {
@@ -80,13 +86,16 @@ export const StyledProject = styled.section`
     }
 
     .thumbnail {
-      padding: 4rem;
+      padding: 2rem;
       background-color: #c6dfdf;
       width: 60%;
 
       img {
         border: 1px solid var(--geryBackground);
         border-radius: 5px;
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
       }
     }
   }

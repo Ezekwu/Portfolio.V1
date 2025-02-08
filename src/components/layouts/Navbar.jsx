@@ -1,5 +1,4 @@
 import { StyledNavbar } from '../styles/Navbar.styled';
-import { motion } from 'framer-motion';
 import { variants } from '../animations/variants';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
@@ -30,7 +29,7 @@ const Navbar = () => {
   return (
     <StyledNavbar>
       <div className={activeNavbar ? `main-nav active` : `main-nav`}>
-        <motion.div
+        <div
           className="container wrapper"
           variants={fadeDownFunc(1)}
           animate="animate"
@@ -70,7 +69,7 @@ const Navbar = () => {
               <i className="fa-solid fa-bars"></i>
             )}
           </div>
-        </motion.div>
+        </div>
       </div>
     </StyledNavbar>
   );

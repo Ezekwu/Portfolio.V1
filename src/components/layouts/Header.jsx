@@ -1,4 +1,5 @@
 import { StyledHeader } from '../styles/Header.styled';
+import HeroImage from '../../assets/images/magic-pattern.png'
 import Navbar from './Navbar';
 import CustomSvg1 from '../../assets/images/Custom Svg 1.png';
 import CustomSvg2 from '../../assets/images/Custom Svg 2.png';
@@ -13,7 +14,9 @@ const Header = () => {
   const { transitionYFunc, fadeInFunc } = variants;
 
   return (
-    <StyledHeader>
+    <StyledHeader style={{
+        backgroundImage: `url(${HeroImage})`
+    }}>
       <Navbar />
       <motion.div
         className="svg1"

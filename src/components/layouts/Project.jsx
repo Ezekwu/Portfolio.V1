@@ -29,6 +29,13 @@ const Project = ({ project }) => {
             ))}
           </motion.div>
           <motion.p
+            variants={fadeInFunc(0.05)}
+            viewport={{ once: true }}
+            whileInView="animate"
+            initial="initial"
+            className='description'
+            >{project.description}</motion.p>
+          <motion.p
             className="duration"
             variants={fadeInFunc(0.05)}
             viewport={{ once: true }}
@@ -57,23 +64,14 @@ const Project = ({ project }) => {
             viewport={{ once: true }}
             initial="initial"
           >
-            <a href={project.githubLink} target="_blank" rel="noreferrer">
-              Repository
-            </a>
+            {project.githubLink && (
+              <a href={project.githubLink} target="_blank" rel="noreferrer">
+                Repository
+              </a>
+            )}
             <a href={project.liveSite} target="_blank" rel="noreferrer">
               Live-site
             </a>
-          </motion.div>
-
-          <motion.div
-            variants={fadeInFunc(0.4)}
-            whileInView="animate"
-            viewport={{ once: true }}
-            initial="initial"
-          >
-            <Link to={project.viewMoreLink} className="View-more">
-              View More
-            </Link>
           </motion.div>
         </div>
         <motion.div

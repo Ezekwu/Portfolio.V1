@@ -15,6 +15,7 @@ const Skills = () => {
             className="about-text_wrapper"
             variants={transitionX(0.04).parent}
             whileInView="animate"
+            viewport={{ once: true }}
             initial="initial"
           >
             {titleArr.map((word, index) => (
@@ -34,6 +35,7 @@ const Skills = () => {
           className="col-2"
           variants={fadeInFunc(1)}
           whileInView="animate"
+          viewport={{ once: true }}
           initial="initial"
         >
           {skills.map((skill) => (
